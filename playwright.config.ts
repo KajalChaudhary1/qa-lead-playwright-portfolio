@@ -1,7 +1,10 @@
 //import { defineConfig, devices } from '@playwright/test';
 import type {PlaywrightTestConfig} from '@playwright/test';
 
-const config: PlaywrightTestConfig= {} ;
+const config: PlaywrightTestConfig= {
+    testMatch: ["tests/Login.test.ts"]
+
+} ;
 export default config;
 
 
